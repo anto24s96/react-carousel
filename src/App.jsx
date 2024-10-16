@@ -37,7 +37,7 @@ const slides = [
 const App = () => {
     return (
         <>
-            <Carousel />
+            <Carousel slides={slides} />
         </>
     );
 };
